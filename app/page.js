@@ -14,8 +14,12 @@ export default function Home() {
             <p>Taste and share food from all over the world.</p>
           </div>
           <div className={classes.cta}>
-            <Link href="/community">Join the community</Link>
-            <Link href="/meals">Explore Meals</Link>
+            <Link href="/community" className="">
+              Join the community
+            </Link>
+            <Link href="/meals" className="">
+              Explore Meals
+            </Link>
           </div>
         </div>
       </header>
