@@ -8,7 +8,7 @@ const MainHeader = () => {
   return (
     <header className={classes.header}>
       <Link className={classes.logo} href="/">
-        <Image src={logoImg} alt="a plate with food on it" priority />
+        <Image src={logoImg} alt="a plate with some food on it" priority />
         NextLevel Food
       </Link>
 
